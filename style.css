@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif' , serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #080808;
+    color: white;
+}
+
+.header{
+   
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/bg1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 73px 306px;
+    padding: px 0px;
+}
+
+.logo{
+    margin: -89px -353px;
+    padding: 10px 10px;
+    filter: invert(100%);
+}
+
+.navbar ul{
+    display: flex;
+    margin: -1px 350px;
+    padding: 3px 12px;
+}
+
+.navbar ul li{
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 6px 24px;
+    margin: -57px 9px;
+}
+
+.navbar ul li a{
+  
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    font-size: 1.9rem;
+}
+
+.header-text{
+    font-size: 1.7rem;
+    margin: -267px -229px; 
+}
+.header-text h1 span{
+   color: red; 
+}
+/* About */
+#About{
+    margin-top: 10px;
+}
+#About .container{
+    display: flex;
+ 
+}
+#About .container .about-col-1 img{
+    
+    height: 480px;
+    width: auto;
+    margin: -85px 129px;
+}
+#About .container .about-col-2 h1{
+    font-size: 2.3rem;
+    width: 176px;
+    margin: -101px -59px;
+}
+#About .container .about-col-2 .about-text{
+    font-size: 1em;
+    margin: 107px -66px;
+    padding: 10px 10px;
+    width: 880px;   
+}
+
+.tab-titles{
+    display: flex;
+    margin: -87px -51px ;
+}
+.tab-links{
+        margin-right: 30px;
+        font-weight: 1000;
+        font-size: 18px;
+        position: relative;
+}
+
+.tab-links::after{
+      content: "";
+      width: 0;
+      height: 3px;
+      background: #ff004f;
+      position: absolute;
+      left:0;
+      bottom:-8px;
+      transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+     width: 50%;
+}
+
+.tab-contents{
+    margin: 136px -37px;
+    
+}
+
+
+
+
+
